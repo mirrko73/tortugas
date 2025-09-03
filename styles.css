@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    font-family: "montserrat";
+}
+
+h1{font-size: 3em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size:1.25em}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border:1px solid rgba(0, 0, 0, .5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .5);
+    color: white;
+    background-color: green;
+}
+button:hover{
+    background-color: rgb(27, 85, 27);
+}
+.bottom p{
+    margin-bottom: 0;
+}
+.conteiner{
+    max-width: 800px;
+    margin: auto;
+}
+
+.color-acento{color:green}
+
+header{
+    background-color: rgb(245, 245, 245);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: green;
+    font-size: 1.6em;
+}
+
+header .conteiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: green;
+}
+
+#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 90dvh;
+    padding: 0px 0;
+    color: black;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("media/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+#hero h1{
+    color: #015371;
+    margin-top: 0;
+    text-shadow: 0px 9px 6px rgba(0,0,0,0.5);
+}
+.h1color{
+    color: #76211b;
+}
+
+#hero button{
+    font-size: 1.75em;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto; /* empuja todo el bloque hacia abajo */
+}
+
+#SomosTortugasPizza .conteiner{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestro-equipo{
+    background-color: rgb(30, 30, 30);
+    color: white;
+    text-align: center;
+}
+
+#nuestro-equipo .conteiner{
+    padding: 150px 12px;
+}
+
+#nuestro-equipo h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestro-equipo p{
+    display: none;
+}
+
+.equipo .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(media/Giornata-mondiale-della-pizza.jpg);
+}
+.carta:nth-child(2){
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(media/descarga.jpg);
+}
+.carta:last-child{
+    background-image: linear-gradient(0deg,rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url(media/faab5b4718374e2206c0cf2923ab3442.jpg);
+}
+
+#caracteristicas .conteiner{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+.conteiner ul {
+    margin: 0;
+    padding: 0;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(30, 30, 30);
+    color: white;
+    height: 80dvh;
+}
+
+#final h2{
+    font-size: 9dvw;
+}
+
+#final button{
+    font-size: 5dvw;
+}
+
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer p{
+    margin: 0;
+    color: rgb(100,100,100);
+    padding: 12px;
+}
+
+footer .conteiner{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
